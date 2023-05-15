@@ -7,9 +7,9 @@ public class variablesInJava {
                                      3.The name can't be keywords.
          Here an example
          */
-        int age = 16;
+        int num = 16;
         /*
-        In this example, "age" is the variable name, "int" is the data type (which stands for integer), and "16" is the initial value assigned to the variable. The data type determines what kind of value the variable can hold; in this case, the "int" data type can hold integer values.
+        In this example, "num" is the variable name, "int" is the data type (which stands for integer), and "16" is the initial value assigned to the variable. The data type determines what kind of value the variable can hold; in this case, the "int" data type can hold integer values.
 
         This will save the variable name in any memory card(Ram,HDD,SSD).there are many boxes in memory card in that the variable name & its value in each box.
          */
