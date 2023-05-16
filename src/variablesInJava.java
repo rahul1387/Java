@@ -17,7 +17,7 @@ public class variablesInJava {
 //        System.out.println(age);
 
         //We can replace the value.
-        age = 25;
+        int age = 25;
         // The above value will replace the value which was their.We don't need define the name again because same name we have already defined, so we can directly call name and replace its value.If we call now again the age it will not print the first value, it will print the replaced value.
         System.out.println("The age is: " + age);
         
