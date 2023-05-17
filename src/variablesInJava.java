@@ -23,10 +23,10 @@ public class variablesInJava {
         
        //Here an example of string
 
-        String name = "Rahul";
+        String name = "Neeraj";
 //        System.out.println(name);
         //We can replace this also
-        name = "Neeraj";
+        name = "Rahul";
         System.out.println(name);
     }
 }
