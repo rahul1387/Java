@@ -91,7 +91,6 @@ public class conditionals {
                 default:
                     System.out.println("Invalid number!");
         }
-
          */
     }
 }
