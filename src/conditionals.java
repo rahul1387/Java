@@ -74,9 +74,10 @@ public class conditionals {
         }here's an example
          */
 
-        System.out.print("Enter a number 1(Hello), 2(Namaste), 3(Bonjour): ");
-        int button = check.nextInt();
+//        System.out.print("Enter a number 1(Hello), 2(Namaste), 3(Bonjour): ");
+//        int button = check.nextInt();
 
+        /*
         switch (button){
                 case 1:
                 System.out.println("Hello");
@@ -90,5 +91,7 @@ public class conditionals {
                 default:
                     System.out.println("Invalid number!");
         }
+
+         */
     }
 }
