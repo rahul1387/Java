@@ -73,5 +73,107 @@ public class practiceOfLoops {
 //                }
 
         //Question5:- Reverse a Number: Write a program to reverse a given number.
+
+//        System.out.print("Enter a number: ");
+//        int num = check.nextInt();
+//        int rev = 0,rem;
+//
+//        while(num != 0)
+//        {
+//            //this is a formula to revers a number
+//            rem = num % 10;
+//            rev = rev * 10 + rem;
+//            num = num / 10;
+//        }
+//        System.out.print("The Revers of this number is: " + rev);
+
+        //Question6:-  Multiplication Table: Write a program to generate the multiplication table for a given number.
+
+//        System.out.println("Enter a number: ");
+//        int tableNumber = check.nextInt();
+//        for (int i = 1; i<=10; i++)
+//        {
+//            System.out.println(tableNumber + " * " + i + " = " + tableNumber*i);
+//            System.out.println();
+//        }
+
+        //Question7:- Power of a Number: Write a program to calculate the power of a number using a given exponent.
+
+//        int number;
+//        int power;
+//
+//        System.out.print("Enter number: ");
+//        number = check.nextInt();
+//        System.out.print("Enter power: ");
+//        power = check.nextInt();
+//
+//        int result = 1;
+//
+//        for (int i = 1; i<=power; i++)
+//        {
+//            result = number*result;
+//        }
+//        System.out.println("The power of " + number + " to " + power + " is: " +                          result);
+
+        //Question8:- Palindrome Number: Write a program to check whether a given number is a palindrome or not.
+
+//        System.out.print("Enter a number: ");
+//        int num = check.nextInt();
+//        int safe = num;
+//        int rev = 0,rem;
+//
+//        while(safe!=0)
+//        {
+//            rem = safe % 10;
+//            rev = rev * 10 + rem;
+//            safe = safe / 10;
+//        }
+//
+//        if (num==rev)
+//        {
+//            System.out.println(num + " is a palindrome number");
+//        }else
+//        {
+//            System.out.println(num + " is not a palindrome number");
+//        }
+
+        //Question9:- Armstrong Number: Write a program to check whether a given number is an Armstrong number or not.
+
+        System.out.print("Enter a Number: ");
+        int number = check.nextInt();
+        int t1 = number;
+        int lenght = 0;
+
+        while (t1 != 0)
+        {
+            lenght = lenght+1;
+            t1 = t1/10;
+        }
+
+        //second logic
+        int t2 = number;
+        int remainder;
+        int armstrong = 0;
+
+        while (t2 != 0)
+        {
+            remainder =t2 % 10;
+            int mul = 1;
+            for (int i = 1; i<=lenght; i++)
+            {
+                mul = mul * remainder;
+            }
+            armstrong = armstrong + mul;
+            t2 = t2/10;
+        }
+        if (number==armstrong)
+        {
+            System.out.println(number + " is armstrong number");
+        }else
+        {
+            System.out.println(number + " is not a armstrong number");
+        }
+
+
     }
 }
