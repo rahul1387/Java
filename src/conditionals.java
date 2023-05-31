@@ -25,6 +25,7 @@ public class conditionals {
 //        System.out.print("Enter a number: ");
 //        long evenOdd = check.nextLong();
 
+
 //        if (evenOdd % 2 == 0){
 //            System.out.println("This is an even number");
 //        }else {
