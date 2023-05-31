@@ -22,7 +22,8 @@ public class practiceOfLoops {
 //        int no = check.nextInt();
 //
 //        int multi = 1;
-//        for (int i = 1; i<=no; i++){
+//        for (int i = 1; i<=no; i++)
+//        {
 //            multi = multi*i;
 //        }
 //        System.out.print("The Factorial of " + no + " is: ");
@@ -37,7 +38,8 @@ public class practiceOfLoops {
 //        int d = check.nextInt();
 //        System.out.println(a + " " + b);
 //
-//        for (int i = 1; i<=d; i++){
+//        for (int i = 1; i<=d; i++)
+//        {
 //            c = a+b;
 //            System.out.println(" " + c);
 //            a=b;
