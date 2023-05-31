@@ -6,15 +6,13 @@ public class conditionals {
         /* if-else statement is used to add condition in code to make a decision.
              Syntax of if-else is :- if(condition)
          {
-         statement will execute if condition is true or else will execute
+         statement will execute if condition is true
          }else
          {
          statement will the condition is false
          }
          here's a example
          */
-
-
 //        System.out.print("Enter your age: ");
 //        int age = check.nextInt();
 //

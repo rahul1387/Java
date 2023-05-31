@@ -84,13 +84,33 @@ public class loops {
 //        }
 //        System.out.print("The sum of these numbers is: ");
 //        System.out.println(sum);
-        System.out.println("Enter a number: ");
-        int tableNumber = sc.nextInt();
-        for (int i = 1; i<=10; i++)
+//        System.out.println("Enter a number: ");
+//        int tableNumber = sc.nextInt();
+//        for (int i = 1; i<=10; i++)
+//        {
+////            System.out.println(tableNumber + " * " + i + " = " + tableNumber*i);
+////            System.out.print();
+////            System.out.print(tableNumber*i);
+//        }
+
+        //Examples of nested for loops
+//        for (int m = 0; m<3; m++)
+//        {
+//            for (int n = 0; n<3; n++)
+//            {
+//                System.out.println(m + " " + n);
+//            }
+//            System.out.println();
+//        }
+
+        System.out.println("All two digit number");
+        for (int s = 1; s<=9; s++ )
         {
-            System.out.println(tableNumber + " * " + i + " = " + tableNumber*i);
-//            System.out.print();
-//            System.out.print(tableNumber*i);
+            for (int d = 0; d<=9; d++)
+            {
+                System.out.println(s + "" + d);
+            }
         }
+
     }
 }
