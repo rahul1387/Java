@@ -38,7 +38,8 @@ public class loops {
          */
 
 //        int number = 1;
-//        while (number<=100){
+//        while (number<=100)
+//        {
 //            System.out.println(number);
 //            number++;
 //        }
