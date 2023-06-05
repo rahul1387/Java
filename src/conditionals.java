@@ -26,9 +26,11 @@ public class conditionals {
 //        long evenOdd = check.nextLong();
 
 
-//        if (evenOdd % 2 == 0){
+//        if (evenOdd % 2 == 0)
+//        {
 //            System.out.println("This is an even number");
-//        }else {
+//        }else
+//        {
 //            System.out.println("This is an odd number");
 //        }
 
