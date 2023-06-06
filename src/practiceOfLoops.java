@@ -21,7 +21,7 @@ public class practiceOfLoops {
 //        System.out.print("Enter a number to calculate factorial: ");
 //        int no = check.nextInt();
 //
-//        int multi = 1;
+//        int multi =  1;
 //        for (int i = 1; i<=no; i++)
 //        {
 //            multi = multi*i;
@@ -237,9 +237,8 @@ public class practiceOfLoops {
 //
 //        int sum = sub1+sub2+sub3+sub4+sub5;
 //        double avg = sum/5.0;
+
 //        System.out.println("The total marks are: " + sum);
 //        System.out.print("The average marks are: " + avg);
-
-
     }
 }
