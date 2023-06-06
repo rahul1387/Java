@@ -31,20 +31,20 @@ public class practiceOfLoops {
 
         //Question3:- Fibonacci Series: Write a program to generate the Fibonacci series up to a given limit.
 
-//        int a = 0;
-//        int b = 1;
-//        int c;
-//        System.out.print("Enter a range: ");
-//        int d = check.nextInt();
-//        System.out.println(a + " " + b);
-//
-//        for (int i = 1; i<=d; i++)
-//        {
-//            c = a+b;
-//            System.out.println(" " + c);
-//            a=b;
-//            b=c;
-//        }
+        int a = 0;
+        int b = 1;
+        int c;
+        System.out.print("Enter a range: ");
+        int d = check.nextInt();
+        System.out.println(a + " " + b);
+
+        for (int i = 1; i<=d; i++)
+        {
+            c = a+b;
+            System.out.println(" " + c);
+            a=b;
+            b=c;
+        }
 
         //Question4:- Prime Numbers: Write a program to check whether a given number is prime or not.
 //                System.out.print("Enter a number: ");
