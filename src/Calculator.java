@@ -28,16 +28,20 @@ public class Calculator {
     public static void main(String[] args)
     {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to calculator \n You will be asked 3 inputs \n Input 1 will be number 1 \n Input 2 will be number 2 \n Input 3 will be operators(+,-,*,/,%)");
-        System.out.print("Enter number 1: ");
-        int firstNum = sc.nextInt();
-        System.out.print("Enter number 2: ");
-        int secondNum = sc.nextInt();
-        System.out.print("Enter operator: ");
-        char selectOperator = sc.next().charAt(0);
+        try {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Welcome to calculator \n You will be asked 3 inputs \n Input 1 will be number 1 \n Input 2 will be number 2 \n Input 3 will be operators(+,-,*,/,%)");
+            System.out.print("Enter number 1: ");
+            int firstNum = sc.nextInt();
+            System.out.print("Enter number 2: ");
+            int secondNum = sc.nextInt();
+            System.out.print("Enter operator: ");
+            char selectOperator = sc.next().charAt(0);
 
-        String methodResult = Calc(firstNum,secondNum,selectOperator);
-        System.out.println(methodResult);
+            String methodResult = Calc(firstNum, secondNum, selectOperator);
+            System.out.println(methodResult);
+        }catch (Exception ex){
+            System.out.println("Please check your input and try again");
+        }
     }
 }
