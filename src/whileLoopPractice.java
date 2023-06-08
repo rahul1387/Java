@@ -48,22 +48,26 @@ public class whileLoopPractice {
         if (operator=='*')
         {
            result = firstNum * secondNum;
+           System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);
         } else if (operator=='/')
         {
             result = firstNum / secondNum;
+            System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);
         } else if (operator=='+')
         {
             result = firstNum + secondNum;
+            System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);
         } else if (operator=='-')
         {
             result = firstNum - secondNum;
+            System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);
         } else if (operator=='%')
         {
             result = firstNum % secondNum;
+            System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);
         }else
         {
-            System.out.println("Invalid operator");
+            System.out.println("Invalid operator!!");
         }
-        System.out.println(firstNum + " " + operator + " " + secondNum + " = " + result);
     }
 }

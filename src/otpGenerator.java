@@ -20,7 +20,7 @@ public class otpGenerator {
             one = one + "0" ;
 
         }
-        // return will return it into calling method means in main method.
+        // return will return the variable into calling method means in main method.
         return (Integer.parseInt(one));
     }
 }
