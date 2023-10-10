@@ -1,3 +1,4 @@
+
 import java.math.BigDecimal;
 import java.util.Scanner;
 
@@ -5,7 +6,7 @@ public class DollarToIndian {
 
     public static double Convertor(double dollar)
     {
-        double rupees = dollar*82.49;
+        double rupees = dollar*83.25;
         return rupees;
     }
 
